@@ -1,0 +1,50 @@
+body {
+    font-family: monospace;
+    background-image: url("https://wallpaperaccess.com/full/2122578.jpg");
+    background-position: center;
+    background-size:auto auto;
+    background-attachment: fixed;
+    
+}
+.divClass {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.463);
+    border: solid rgb(0, 0, 0) 2px;
+    color: white;
+}
+
+#thirdDiv {
+    list-style-type: none;
+    height: 600px;
+    width: auto;
+    background-color: rgba(49, 0, 0, 0.632);
+    padding: 50px;
+    border: solid white 1px;
+}
+
+#thirdDiv li {
+    display: inline;
+}
+
+#spanId {
+    font-size: 18px;
+    text-align:center;
+    margin: 50px;
+}
+a {
+    text-decoration:none;
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+img {
+    height: 400px;
+}
+h1 {
+    color: rgb(0, 229, 255);
+}
