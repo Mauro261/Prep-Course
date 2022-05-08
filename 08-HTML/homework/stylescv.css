@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    font-family: monospace;
+    color:white;
+}
+
+#bodyDiv {
+    display:flex;
+}
+
+h1 {
+    font-size: 200%;
+    text-align: center;
+}
+.section {
+    background-color: rgba(20, 0, 100, 0.253);
+    margin: 1%;
+    padding: 1%;
+    border:solid 2px cyan;
+    animation-name: bordercolor;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    text-align: justify;
+}
+
+@keyframes bordercolor {
+    50% {
+        border-color: black;
+    }
+    100% {
+        border-color: rgb(85, 0, 255);
+    }
+}
+
+#presentacion {
+    position: -webkit-sticky;
+    position: sticky;
+    float: left;
+    width: 25%;
+}
+#presentacion img {
+    border-radius: 100%;
+    width: 50%;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#informacion {
+    width: 100%;
+}
+
+#skillItems {
+    list-style-type: none;
+}
+#skillItems li{
+    display: inline-block;
+    padding: 2%;
+}
+
+#skillItems img {
+    width: 100px;
+    transition: all 0.5s;
+    
+}
+#skillItems img:hover {
+    transform: scale(1.2);
+}
